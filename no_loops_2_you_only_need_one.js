@@ -14,4 +14,6 @@ https://www.codewars.com/kata/no-loops-1-small-enough
 https://www.codewars.com/kata/no-loops-3-copy-within
 */
 
-function check(a,x){};
+const check = (a,x) => {
+  return a.includes(x);
+};
